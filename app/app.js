@@ -15,7 +15,8 @@ function createGrid() {
 
 function createBlock(i) {
   block = document.createElement("div");
-  block.id = `${id}`;
+  block.className = "block";
+  block.id = `${i}`;
   document.body.getElementsByClassName("grid-container")[0].appendChild(block);
 };
 
