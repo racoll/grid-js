@@ -11,4 +11,9 @@ body {
 .block {
   outline: 1px solid black;
   display: inline-grid;
+  background: white;
+}
+
+.block-red {
+  background: red;
 }

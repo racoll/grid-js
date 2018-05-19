@@ -26,7 +26,7 @@ function createBlock(i) {
 
 function primeBlock(i) {
   document.getElementById(i.toString()).addEventListener("click", function() {
-    toggleBlocks();
+    toggleBlocks(i);
   });
 };
 
