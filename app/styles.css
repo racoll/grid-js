@@ -4,10 +4,10 @@ body {
 
 
 .grid-container {
- 
+
 }
 
 
 .block {
-
+  outline: 1px solid black;
 }
