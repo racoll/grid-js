@@ -10,7 +10,11 @@ var app = {
 function createGrid() {
   for (let i = 1; i < 145; i++) {
     createBlock(i);
-  }
-}
+  };
+};
+
+function createBlock() {
+  block = document.createElement("div");
+};
 
 module.exports = app;
