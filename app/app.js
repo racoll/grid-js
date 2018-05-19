@@ -19,8 +19,8 @@ function createBlock(i) {
   block.className = "block";
   block.id = `${i}`;
   block.innerHTML = `${i}`;
-  block.style.height = `${50}px`;
-  block.style.width = `${50}px`;
+  block.style.height = `${250}px`;
+  block.style.width = `${250}px`;
   document.body.getElementsByClassName("grid-container")[0].appendChild(block);
 };
 
