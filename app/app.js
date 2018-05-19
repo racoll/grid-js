@@ -1,43 +1,15 @@
 // source goes here
+const createGrid = require("../grid_logic/createGrid.js");
+// const createBlock = require("../grid-logic/createBlock.js");
+// const primeBlock = require("../grid-logic/primeBlock.js");
+// const toggleBlocks = require("../grid-logic/toggleBlocks.js");
+
 var app = {
   // this is the entry point for your app.
   init: function() {
     console.log("hello from app!");
   }
 };
-
-
-function createGrid() {
-  for (let i = 1; i < 145; i++) {
-    createBlock(i);
-    primeBlock(i);
-  };
-};
-
-function createBlock(i) {
-  block = document.createElement("div");
-  block.className = "block";
-  block.id = `${i}`;
-  block.innerHTML = `${i}`;
-  block.style.height = `${250}px`;
-  block.style.width = `${250}px`;
-  document.body.getElementsByClassName("grid-container")[0].appendChild(block);
-};
-
-function primeBlock(i) {
-  document.getElementById(i.toString()).addEventListener("click", function() {
-    toggleBlocks(i);
-  });
-};
-
-function toggleBlocks(i) {
-  for (let x = 1; x < 145; x++) {
-    if (!(x % i)) {
-      document.getElementById(x.toString()).classList.toggle("block-red");
-    };
-  };
-};
-
 
 createGrid();
 
