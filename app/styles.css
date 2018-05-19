@@ -5,6 +5,9 @@ body {
 
 .grid-container {
   max-width: 900px;
+  top: 40px;
+  margin: auto;
+  position: relative;
 }
 
 .block {
