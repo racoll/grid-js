@@ -4,10 +4,11 @@ body {
 
 
 .grid-container {
-  
+  max-width: 1000px;
 }
 
 
 .block {
   outline: 1px solid black;
+  display: inline-grid;
 }
