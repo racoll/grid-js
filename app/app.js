@@ -13,8 +13,12 @@ function createGrid() {
   };
 };
 
-function createBlock() {
+function createBlock(i) {
   block = document.createElement("div");
+  block.id = `${id}`;
+  document.body.getElementsByClassName("grid-container")[0].appendChild(block);
 };
+
+createGrid();
 
 module.exports = app;
