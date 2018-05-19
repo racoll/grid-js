@@ -26,8 +26,16 @@ function createBlock(i) {
 
 function primeBlock(i) {
   document.getElementById(i.toString()).addEventListener("click", function() {
-    console.log("hello");
+    toggleBlocks();
   });
+};
+
+function toggleBlocks(i) {
+  for (let x = 1; x < 145; x++) {
+    if (!(x % i)) {
+      document.getElementById(x.toString()).classList.toggle("block-red");
+    };
+  };
 };
 
 
