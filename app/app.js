@@ -23,6 +23,12 @@ function createBlock(i) {
   document.body.getElementsByClassName("grid-container")[0].appendChild(block);
 };
 
+function primeBlock(i) {
+  document.getElementById(i.toString()).addEventListener("click", function() {
+  });
+};
+
+
 createGrid();
 
 module.exports = app;
