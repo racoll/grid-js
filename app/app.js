@@ -10,6 +10,7 @@ var app = {
 function createGrid() {
   for (let i = 1; i < 145; i++) {
     createBlock(i);
+    primeBlock(i);
   };
 };
 
@@ -25,6 +26,7 @@ function createBlock(i) {
 
 function primeBlock(i) {
   document.getElementById(i.toString()).addEventListener("click", function() {
+    console.log("hello");
   });
 };
 
