@@ -22,5 +22,13 @@ describe("#toggleBlocks", function() {
       expect(testBlock.getPropertyValue("class") === "block-red");
       expect(testBlock2.getPropertyValue("class") === "block-red");
     })
+
+    it("changes the block back to white upon second click", function() {
+    toggleBlocks(70);
+    var testBlock = block.getElementById(70);
+    expect(testBlock.getPropertyValue("class") === "block-red");
+    toggleBlocks(70);
+    expect(testBlock.getPropertyValue("class") === "block");
+    });
   
   });

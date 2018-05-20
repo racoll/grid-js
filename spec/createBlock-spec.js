@@ -17,11 +17,11 @@ describe("#createBlock", function() {
     });
   
     it("should have a width of 80px", function() {
-      expect(block.style.width).toEqual(80);
+      expect(block.style.width).toEqual("80px");
     });
   
     it("should have a height of 80px", function() {
-      expect(block.style.height).toEqual(80);
+      expect(block.style.height).toEqual("80px");
     });
   
   });
