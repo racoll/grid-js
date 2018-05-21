@@ -1,8 +1,9 @@
-var toggleBlocks = require("../grid_logic/toggleBlocks.js")
+var toggleBlocks = require("../grid_logic/toggleBlocks.js");
+var createGrid = require("../grid_logic/createGrid.js");
 
 describe("#toggleBlocks", function() {
 
-    jsdom();
+
   
     beforeEach(function() {
       createGrid()
@@ -13,7 +14,6 @@ describe("#toggleBlocks", function() {
       var testBlock = block.getElementById(70);
       expect(testBlock.getPropertyValue("class") === "block-red");
     });
-  
   
     it("changes the multiples of selected block red", function() {
       toggleBlocks(70);
