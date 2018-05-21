@@ -1,10 +1,9 @@
 var toggleBlocks = require("../grid_logic/toggleBlocks.js");
 var createGrid = require("../grid_logic/createGrid.js");
+var createBlock = require("../grid_logic/createBlock.js")
 
 describe("#toggleBlocks", function() {
 
-
-  
     beforeEach(function() {
       createGrid()
     });

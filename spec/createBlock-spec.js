@@ -8,7 +8,7 @@ describe("#createBlock", function() {
     });
   
     it("should have an id", function() {
-      expect(block.getElementById()).toEqual("1");
+      expect(block.id).toEqual("1");
     });
   
     it("should have innerHTML of id", function() {
