@@ -15,10 +15,11 @@ body {
 }
 
 .grid-container {
-  max-width: 900px;
+  max-width: 750px;
   top: 40px;
   margin: auto;
   position: relative;
+  justify-content: space-evenly;
 }
 
 .block {

@@ -1,3 +1,4 @@
+
 function createBlock(i) {
     block = document.createElement("div");
     block.className = "block";
