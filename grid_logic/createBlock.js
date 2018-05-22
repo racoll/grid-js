@@ -5,10 +5,7 @@ function createBlock(i) {
     block.innerHTML = `${i}`;
     block.style.height = `${250}px`;
     block.style.width = `${250}px`;
-    window.onload = function(){
-    document.body.getElementsByClassName("grid-container")[0].appendChild(block);
-    // document.body.querySelector(".grid-container").appendChild(block);
-    };
+    document.getElementById("grid-container").appendChild(block);
   };
 
-  module.exports = createBlock;
+  module.exports = createBlock; 

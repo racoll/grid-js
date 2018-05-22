@@ -44,6 +44,15 @@ module.exports = function(config) {
     port: 9876,
 
 
+    // autoWatchBatchDelay: 2500,
+
+
+    // captureTimeout: 60000,
+
+
+    // browserNoActivityTimeout: 60000,
+
+
     // enable / disable colors in the output (reporters and logs)
     colors: true,
 
