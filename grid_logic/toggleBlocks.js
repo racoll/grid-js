@@ -3,6 +3,7 @@ function toggleBlocks(i) {
       if (!(x % i)) {
         // window.onload = function(){
           document.getElementById(x.toString()).classList.toggle("block-red");
+          console.log(`you clicked block ${i}`)
         // }
       };
     };
