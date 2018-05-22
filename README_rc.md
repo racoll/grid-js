@@ -13,7 +13,9 @@ Building a single pag web app, made up of an interractive and responive grid tha
 ## Challenges
 
 ### TDD 
-* It took me some time to get visibility on and overcome a testing blocker. Once I realised that the problem was due to asycnhronocity, and queries to the DOM were not being recognised as the tests were running before the DOM had fully loaded, then I was able to work through the problem and get tests passing for the main logic.
+* It took me some time to get visibility on and overcome a testing blocker. Once I realised that the problem was likely due to asycnhronocity, as queries to the DOM were not being recognised due to the tests running before the DOM had fully loaded, then I was able to work through the problem and get tests passing for the main logic.
+
+* I did not write tests for the primeBlock function, as the presence of click event listeners present on the blocks is confirmed by the toggleBlocks function and by that function's tests.
 
 * For potential solutions I looked into async/await, timeouts on test as well as potentially mocking certain objects. Ultimately, I needed to be more clear about defining certain objects in my test files so that the tests would know what certain elements on the DOM really were.
 
