@@ -4,13 +4,7 @@ var createBlock = require("../grid_logic/createBlock.js")
 
 describe("#toggleBlocks", function() {
 
-    // beforeEach(function() {
-    //   createGrid();
-    //   // createBlock(70);
-    // });
-
     createGrid();
-    // toggleBlocks(70);
   
     it("changes the selected block red", function() {
       toggleBlocks(60);
