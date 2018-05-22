@@ -30,4 +30,4 @@ describe("#toggleBlocks", function() {
     expect(testBlock.className).toEqual("block");
     });
   
-  });
+});
