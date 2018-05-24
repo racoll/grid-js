@@ -21,7 +21,7 @@ Building a single pag web app, made up of an interractive and responive grid tha
 
 ## Next steps/Improvements
 
-* I would like to implement a bug fix that prevents the user from clicking an additional box once the mutliples have already been displayed for the original choice.
+* I would like to implement a bug fix that prevents the user from clicking an additional box once the mutliples have already been displayed for the original choice. 
 
 * I would like to build out the test files to cover more angles in the code.
 
