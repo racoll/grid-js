@@ -6,7 +6,7 @@
 Building a single pag web app, made up of an interractive and responive grid that:
 
 * Shows, by way of red highlighted boxes, all the multiples of the number of the clicked box
-* When clicked again, all the highlighted boxes revert back to original colour
+* When box is clicked again, all the highlighted boxes revert back to original colour
 * The grid has 3 numbers per row for desktop, 2 for tablet and 1 for mobile
 * The grid has a margin that prevents it stretching to fill the screen 
 
