@@ -9,8 +9,6 @@ describe("#toggleBlocks", function() {
     it("changes the selected block red", function() {
       toggleBlocks(60);
       var testBlock = (document.getElementsByClassName('block')[60]);
-      // var testBlock = block.getElementById(70);
-      // toggleBlocks(70);
       expect(testBlock.className).toEqual("block block-red");
     });
   

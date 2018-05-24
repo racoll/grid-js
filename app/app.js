@@ -1,5 +1,4 @@
 // source goes here
-// const createGrid = require("../grid_logic/createGrid.js");
 
 var app = {
   // this is the entry point for your app.
@@ -9,6 +8,5 @@ var app = {
 };
 
 
-// createGrid();
 
 module.exports = app;
