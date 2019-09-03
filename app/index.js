@@ -9,7 +9,7 @@ const createGrid = require("../grid_logic/createGrid.js");
 require('./styles.css');
 var app = require('./app.js');
 app.init();
-window.onload = function(){
+// window.onload = function(){
     createGrid();
-}
+// }
 

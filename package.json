@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.config.js --single-run",
-    "start": "webpack-dev-server --inline --quiet"
+    "start": "webpack-dev-server --inline --quiet --port 8881"
   },
   "author": "",
   "license": "ISC",
